@@ -27,7 +27,7 @@ For hardware rendering support:
 - [Lmod] 6.0.1+ or any other `module purge` and `module load <modules>` based
   CLI used to load appropriate environments within the batch job
 
-[OSC VMD](https://github.com/OSC/bc_osc_vmd)
+[OSC VMD]: https://github.com/OSC/bc_osc_vmd
 [VMD]: http://www.ks.uiuc.edu/Research/vmd/
 [Xfce Desktop]: https://xfce.org/
 [TurboVNC]: http://www.turbovnc.org/
