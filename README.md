@@ -40,6 +40,6 @@ For hardware rendering support:
 
 * Documentation, website content, and logo is licensed under
   [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)
-* Code is licensed under MIT (see LICENSE.txt)o
+* Code is licensed under MIT (see LICENSE.txt)
 * VMD and its logo are intellectual property owned by the University of Illinois, and all right, 
 title and interest, including copyright, remain with the University.
