@@ -1,0 +1,12 @@
+<%-
+  args = [ "--partition", "ood_inter", "--constraint", "ood_gpu",  "--nodelist", "n0004.ood0",  "--gres", "gpu:1",  "--mem", "48G", "--nodes", "1", "--ntasks-per-node", "4" ]
+-%>
+---
+batch_connect:
+  template: vnc
+script:
+  accounting_id: "<%= account %>"
+  native:
+    <%- args.each do |arg| -%>
+    - "<%= arg %>"
+    <%- end -%>
